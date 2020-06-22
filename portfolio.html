@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <title>Victor Mendoza</title>
+  <link rel="icon" type="image/png" href = "images/VM.png"/>
+    <!-- build:css dist/portfolio.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- endbuild -->
+</head>
+<body class = "bodyport" onload="copyr()">
+    <div id="container">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="index.html">Victor Mendoza</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item drop">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item drop">
+                <a class="nav-link active" href="portfolio.html">Portafolio</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobremi.html">Sobre mí</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <header class="phead">
+        <h1>Portafolio</h1>
+        <p>En esta sección puedes ver algunos ejemplos de las fotografías que he tomado.<br> Disfruta  tanto viendo estas imágenes como yo hice tomándolas.</p>
+    </header>
+
+    <div class="prodhero">
+      <div class="prod">
+        <h2>Fotografía de productos.</h2>
+      </div>
+    </div>
+          <div class="container prod">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/prod6.jpg" onclick="zom(this)">
+              </div>
+              <div class="col-md-6">
+                <img src="images/prod7.jpg" onclick="zom(this)">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/prod8.jpg" onclick="zom(this)">
+              </div>
+              <div class="col-md-6">
+                <img src="images/prod4.jpg" onclick="zom(this)">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/prod5.jpg" onclick="zom(this)">
+              </div>
+              <div class="col-md-6">
+                <img src="images/prod10.jpg" onclick="zom(this)"> 
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/prod1.jpg" onclick="zom(this)">
+              </div>
+              <div class="col-md-6">
+                <img src="images/prod3.jpg" onclick="zom(this)">
+              </div>
+            </div>
+          </div>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+          </div>
+
+
+    <div class = "ret"> 
+      <h2>Retratos.</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/ret2.jpg" onclick="zom(this)">
+          </div>
+          <div class="col-md-6">
+            <img src="images/ret3.jpg" onclick="zom(this)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/index2.jpg" onclick="zom(this)">
+          </div>
+          <div class="col-md-6">
+            <img src="images/ret5.jpg" onclick="zom(this)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/ret4.jpg" onclick="zom(this)">
+          </div>
+          <div class="col-md-6">
+            <img src="images/ret6.jpg" onclick="zom(this)">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs">
+        <h2>Fotografía social.</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/social2.jpg" onclick="zom(this)">
+            </div>
+            <div class="col-md-6">
+              <img src="images/social3.jpg" onclick="zom(this)">
+            </div>
+          </div>        
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/social6.jpg" onclick="zom(this)">
+            </div>
+            <div class="col-md-6">
+              <img src="images/social1.jpg" onclick="zom(this)">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/social4.jpg" onclick="zom(this)">
+            </div>
+            <div class="col-md-6">
+              <img src="images/social5.jpg" onclick="zom(this)">
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+      <p id="copy"></p>
+      <p>vmmendozae123@gmail.com</p>
+    </footer>
+
+    <!-- build:js dist/portfolio.js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
